@@ -27,6 +27,7 @@
   
    2.2. На отдельном специальном веб-сайте disk.spandeks.ru
 
+```mermaid
 stateDiagram
     [*] --> Still
     Still --> [*]
@@ -35,5 +36,5 @@ stateDiagram
     Moving --> Still
     Moving --> Crash
     Crash --> [*]
-
+```
 
