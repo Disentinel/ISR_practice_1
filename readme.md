@@ -27,5 +27,13 @@
   
    2.2. На отдельном специальном веб-сайте disk.spandeks.ru
 
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
 
 
